@@ -1,0 +1,35 @@
+{
+    "ConnectionString": "DSN=Microsoft Excel;",
+    "DifferenceFindMode": {
+        "CompareTwoRevisions": [],
+        "ModifiedMDEFLocation": "C:\\fakepath\\file.ext",
+        "IsFirstRevision": false
+    },
+    "PerforceLocation": {
+        "MDEFLocation": "//fakepath//file.ext"
+    },
+    "TestSuite": {
+        "Integration": {
+            "SQL_SELECT_ALL": 103,
+            "SQL_PASSDOWN": 51
+        },
+        "SP": {
+            "SQL_SP": 9
+        },
+        "SQL": {
+            "SQL_AND_OR": 161,
+            "SQL_FUNCTION_1TABLE": 882,
+            "SQL_GROUP_BY": 84,
+            "SQL_LIKE": 286,
+            "SQL_IN_BETWEEN": 183,
+            "SQL_ORDER_BY": 58,
+            "SQL_ORDER": 598,
+            "SQL_SELECT_TOP": 27
+        }
+    },
+    "ExternalArguments": {
+        "SP": {
+            "<Name-of-SP>": "<input parameters>"
+        }
+    }
+}
